@@ -25,7 +25,6 @@ export default function HowWeWorks() {
                 </div>
 
                 <article className='text-lg font-light'>
-                    {/* <p className='mb-4 text-gray-700'>{shortDescriptions}</p> */}
                     <div className='grid xl:grid-cols-3 sm:grid-cols-2 sm:gap-6 gap-4 text-gray-500'>
                         {
                             listData.map((item, index) => (

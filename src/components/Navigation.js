@@ -35,7 +35,7 @@ export default function Navigation()
                         <Link 
                             key={ index }
                             href={ item.link }
-                            className='text-white/60 hover:text-white duration-300'
+                            className='text-white/70 font-semibold hover:text-white duration-300'
                         >
                             { item.title }
                         </Link>
@@ -44,7 +44,7 @@ export default function Navigation()
             </div>
             
             <Link 
-                className='bg-sky-600 text-white px-4 py-1 rounded-2xl'
+                className='bg-sky-600 text-white px-4 py-2 rounded font-semibold'
                 href='/about'
             >
                 Contact

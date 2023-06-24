@@ -16,11 +16,11 @@ export default function Banner() {
         />
 
         <div className='z-30 relative container mx-auto'>
-          <div className='max-w-[600px] text-center mx-auto'>
+          <div className='max-w-[650px] text-center mx-auto'>
             <h1 className='font-bold text-[40px] mb-4 leading-12 text-white/80'>
               Transforming Ideas into Intelligent Software Solutions
             </h1>
-            <p className='text-white/60 text-lg'>
+            <p className='text-white/70 text-xl'>
               We create custom software solutions for businesses, driving innovation, efficiency, and growth. Embrace technology, empower progress.
             </p>
           </div>
